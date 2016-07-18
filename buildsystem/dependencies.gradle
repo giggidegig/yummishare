@@ -1,0 +1,10 @@
+repositories{
+    jcenter()
+}
+
+ext{
+    apacheLangVersion = '3.4'
+    helperDepndencies = [
+        apachelang3: "org.apache.commons:commons-lang3:${apacheLangVersion}",
+    ]
+}
