@@ -1,1 +1,1 @@
-include ':yummishare'
+include ':yummishare', ':service' , 'data'

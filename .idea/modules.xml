@@ -3,6 +3,8 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/YummiShare.iml" filepath="$PROJECT_DIR$/.idea/modules/YummiShare.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/data/data.iml" filepath="$PROJECT_DIR$/.idea/modules/data/data.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/service/service.iml" filepath="$PROJECT_DIR$/.idea/modules/service/service.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/yummishare/yummishare.iml" filepath="$PROJECT_DIR$/.idea/modules/yummishare/yummishare.iml" />
     </modules>
   </component>

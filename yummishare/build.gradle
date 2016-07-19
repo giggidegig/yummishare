@@ -22,14 +22,14 @@ android {
 }
 
 dependencies {
-    def helperDepndencies = rootProject.ext.helperDepndencies;
-    compile helperDepndencies.apachelang3
+    compile project(':service')
+    compile project(':data')
+
+    def helperDependencies = rootProject.ext.helperDependencies;
+    compile helperDependencies.apachelang3
 
     compile fileTree(dir: 'libs', include: ['*.jar'])
     testCompile 'junit:junit:4.12'
     compile 'com.android.support:appcompat-v7:24.1.0'
 }
 
-task wrapper(type:Wrapper){
-    version '2.14'
-}

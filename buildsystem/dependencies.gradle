@@ -3,8 +3,35 @@ repositories{
 }
 
 ext{
+
+    //Android
+    androidBuildToolsVersion = "24.0.1"
+    androidMinSdkVersion = 116
+    androidTargetSdkVersion = 23
+    androidCompileSdkVersion = 23
+
+
     apacheLangVersion = '3.4'
-    helperDepndencies = [
+    rxJavaVersion = '1.1.7'
+    rxAndroidVersion = '1.2.1'
+
+    helperDependencies = [
         apachelang3: "org.apache.commons:commons-lang3:${apacheLangVersion}",
+            rxJava: "io.reactivex:rxjava:${rxJavaVersion}",
+            rxAndroid: "io.reactivex:rxandroid:${rxAndroidVersion}"
+    ]
+
+    couchBaseVersion = '1.2.1'
+    dataDependencies = [
+            couchBase: "com.couchbase.lite:couchbase-lite-android:${couchBaseVersion}"
+    ]
+
+    junitVersion = '4.12'
+    mockitoVersion = '1.9.5'
+    robolectricVersion = '3.1.1'
+    testDependencies = [
+            junit: "junit:junit:${junitVersion}",
+            mockito: "org.mockito:mockito-all:${mockitoVersion}",
+            robolectric: "org.robolectric:robolectric:${robolectricVersion}"
     ]
 }
